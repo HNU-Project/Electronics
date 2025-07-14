@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const token = localStorage.getItem("accessToken");
-    const Base_Url = "https://electronics-ecommerce-production.up.railway.app/"
+    const Base_Url = "https://electronics-ecommerce-production.up.railway.app"
 
     // Redirect if no token
     if (!token || token === "null") {
