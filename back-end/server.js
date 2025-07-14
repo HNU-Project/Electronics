@@ -31,10 +31,6 @@ app.use("/api/user",autho,userRoutes);
 app.use("/api/cart",autho,cartRoutes);
 app.use("/api/order",autho,orderRoutes);
 app.use("/api/mail",mailRoutes);
-
-app.get("/",(req,res)=>{
-    res.send("home");
-})
 app.use("/api/products",productRoutes);
 
 
